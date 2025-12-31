@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Playground</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url("https://i.pinimg.com/736x/f2/04/2c/f2042ce98e8fccbb9383535424e608b4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
-    <div class="parent">
-        <div class="inputs">
-            <textarea name="" id="htmlcode"></textarea>
-            <textarea name="" id="csscode"></textarea>
-            <textarea name="" id="jscode"></textarea>
-            <button id="runbutton">Run</button>
-        </div>
-        <div class="outputs">
-            <iframe title="" frameborder="0" id="output"></iframe>
-        </div>
+    <div class="landing">
+        <h1>Live Code Playground</h1><br>
+        <p>Write and run HTML, CSS, and JavaScript in real time.</p><br>
+
+        <a href="./playground.html" id="btn">Start Coding</a>
     </div>
-    <script src="app.js"></script>
 </body>
 </html>
